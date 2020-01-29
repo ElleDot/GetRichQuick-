@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF224FF21A86D4020059A7D5 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = BF224FF11A86D4020059A7D5 /* cross.png */; };
+		BF224FF51A86D56F0059A7D5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF224FF41A86D56F0059A7D5 /* SettingsViewController.m */; };
+		BF224FF81A86DF430059A7D5 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF224FF71A86DF430059A7D5 /* ShopViewController.m */; };
+		BF661D111A93B78500A05BE3 /* G2ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF661D101A93B78500A05BE3 /* G2ShopViewController.m */; };
+		BF6F22481A8636FB00349ACD /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF6F22451A8636FA00349ACD /* coin.wav */; };
+		BF6F22491A8636FB00349ACD /* coin2.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF6F22461A8636FB00349ACD /* coin2.wav */; };
+		BF6F224A1A8636FB00349ACD /* coin3.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF6F22471A8636FB00349ACD /* coin3.wav */; };
+		BF767CBC1A893DEA00D3AA26 /* 2ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF767CBB1A893DEA00D3AA26 /* 2ShopViewController.m */; };
+		BF779A361A8D51D700EA0EAD /* kaching.wav in Resources */ = {isa = PBXBuildFile; fileRef = BF779A351A8D51D700EA0EAD /* kaching.wav */; };
+		BF779A3B1A8E8C1100EA0EAD /* GShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF779A3A1A8E8C1100EA0EAD /* GShopViewController.m */; };
+		BF8DB1761A855AF80027689A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DB1751A855AF80027689A /* main.m */; };
+		BF8DB1791A855AF80027689A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DB1781A855AF80027689A /* AppDelegate.m */; };
+		BF8DB17C1A855AF80027689A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DB17B1A855AF80027689A /* ViewController.m */; };
+		BF8DB17F1A855AF80027689A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8DB17D1A855AF80027689A /* Main.storyboard */; };
+		BF8DB1811A855AF80027689A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8DB1801A855AF80027689A /* Images.xcassets */; };
+		BF8DB1901A855AF80027689A /* GetRichQuick_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8DB18F1A855AF80027689A /* GetRichQuick_Tests.m */; };
+		BFBA385C1A8FEB72003303C0 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBA385B1A8FEB72003303C0 /* StatsViewController.m */; };
+		BFC7450E1A968D0D00870705 /* coinpic180.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC7450D1A968D0D00870705 /* coinpic180.png */; };
+		BFFFD2C81A90F2600028A2B7 /* coinpic.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFFD2C71A90F2600028A2B7 /* coinpic.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF8DB18A1A855AF80027689A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF8DB1681A855AF80027689A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF8DB16F1A855AF80027689A;
+			remoteInfo = "GetRichQuick!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF224FF11A86D4020059A7D5 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		BF224FF31A86D56F0059A7D5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		BF224FF41A86D56F0059A7D5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		BF224FF61A86DF430059A7D5 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		BF224FF71A86DF430059A7D5 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		BF661D0F1A93B78500A05BE3 /* G2ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G2ShopViewController.h; sourceTree = "<group>"; };
+		BF661D101A93B78500A05BE3 /* G2ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G2ShopViewController.m; sourceTree = "<group>"; };
+		BF6F22451A8636FA00349ACD /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		BF6F22461A8636FB00349ACD /* coin2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin2.wav; sourceTree = "<group>"; };
+		BF6F22471A8636FB00349ACD /* coin3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin3.wav; sourceTree = "<group>"; };
+		BF767CBA1A893DEA00D3AA26 /* 2ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2ShopViewController.h; sourceTree = "<group>"; };
+		BF767CBB1A893DEA00D3AA26 /* 2ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 2ShopViewController.m; sourceTree = "<group>"; };
+		BF779A351A8D51D700EA0EAD /* kaching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kaching.wav; sourceTree = "<group>"; };
+		BF779A391A8E8C1100EA0EAD /* GShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GShopViewController.h; sourceTree = "<group>"; };
+		BF779A3A1A8E8C1100EA0EAD /* GShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GShopViewController.m; sourceTree = "<group>"; };
+		BF8DB1701A855AF80027689A /* GetRichQuick!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GetRichQuick!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8DB1741A855AF80027689A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8DB1751A855AF80027689A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF8DB1771A855AF80027689A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF8DB1781A855AF80027689A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF8DB17A1A855AF80027689A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF8DB17B1A855AF80027689A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF8DB17E1A855AF80027689A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF8DB1801A855AF80027689A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF8DB1891A855AF80027689A /* GetRichQuick!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GetRichQuick!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8DB18E1A855AF80027689A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF8DB18F1A855AF80027689A /* GetRichQuick_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetRichQuick_Tests.m; sourceTree = "<group>"; };
+		BFBA385A1A8FEB72003303C0 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		BFBA385B1A8FEB72003303C0 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
+		BFC7450D1A968D0D00870705 /* coinpic180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coinpic180.png; sourceTree = "<group>"; };
+		BFFFD2C71A90F2600028A2B7 /* coinpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coinpic.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF8DB16D1A855AF80027689A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8DB1861A855AF80027689A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF8DB1671A855AF80027689A = {
+			isa = PBXGroup;
+			children = (
+				BF8DB1721A855AF80027689A /* GetRichQuick! */,
+				BF8DB18C1A855AF80027689A /* GetRichQuick!Tests */,
+				BF8DB1711A855AF80027689A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF8DB1711A855AF80027689A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DB1701A855AF80027689A /* GetRichQuick!.app */,
+				BF8DB1891A855AF80027689A /* GetRichQuick!Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF8DB1721A855AF80027689A /* GetRichQuick! */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DB1771A855AF80027689A /* AppDelegate.h */,
+				BF8DB1781A855AF80027689A /* AppDelegate.m */,
+				BF8DB17A1A855AF80027689A /* ViewController.h */,
+				BF8DB17B1A855AF80027689A /* ViewController.m */,
+				BF224FF31A86D56F0059A7D5 /* SettingsViewController.h */,
+				BF224FF41A86D56F0059A7D5 /* SettingsViewController.m */,
+				BFBA385A1A8FEB72003303C0 /* StatsViewController.h */,
+				BFBA385B1A8FEB72003303C0 /* StatsViewController.m */,
+				BF224FF61A86DF430059A7D5 /* ShopViewController.h */,
+				BF224FF71A86DF430059A7D5 /* ShopViewController.m */,
+				BF779A391A8E8C1100EA0EAD /* GShopViewController.h */,
+				BF779A3A1A8E8C1100EA0EAD /* GShopViewController.m */,
+				BF767CBA1A893DEA00D3AA26 /* 2ShopViewController.h */,
+				BF767CBB1A893DEA00D3AA26 /* 2ShopViewController.m */,
+				BF661D0F1A93B78500A05BE3 /* G2ShopViewController.h */,
+				BF661D101A93B78500A05BE3 /* G2ShopViewController.m */,
+				BF8DB17D1A855AF80027689A /* Main.storyboard */,
+				BFC7450D1A968D0D00870705 /* coinpic180.png */,
+				BFFFD2C71A90F2600028A2B7 /* coinpic.png */,
+				BF8DB1801A855AF80027689A /* Images.xcassets */,
+				BF224FF11A86D4020059A7D5 /* cross.png */,
+				BF6F22451A8636FA00349ACD /* coin.wav */,
+				BF6F22461A8636FB00349ACD /* coin2.wav */,
+				BF6F22471A8636FB00349ACD /* coin3.wav */,
+				BF779A351A8D51D700EA0EAD /* kaching.wav */,
+				BF8DB1731A855AF80027689A /* Supporting Files */,
+			);
+			path = "GetRichQuick!";
+			sourceTree = "<group>";
+		};
+		BF8DB1731A855AF80027689A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DB1741A855AF80027689A /* Info.plist */,
+				BF8DB1751A855AF80027689A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF8DB18C1A855AF80027689A /* GetRichQuick!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DB18F1A855AF80027689A /* GetRichQuick_Tests.m */,
+				BF8DB18D1A855AF80027689A /* Supporting Files */,
+			);
+			path = "GetRichQuick!Tests";
+			sourceTree = "<group>";
+		};
+		BF8DB18D1A855AF80027689A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DB18E1A855AF80027689A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF8DB16F1A855AF80027689A /* GetRichQuick! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8DB1931A855AF80027689A /* Build configuration list for PBXNativeTarget "GetRichQuick!" */;
+			buildPhases = (
+				BF8DB16C1A855AF80027689A /* Sources */,
+				BF8DB16D1A855AF80027689A /* Frameworks */,
+				BF8DB16E1A855AF80027689A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GetRichQuick!";
+			productName = "GetRichQuick!";
+			productReference = BF8DB1701A855AF80027689A /* GetRichQuick!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF8DB1881A855AF80027689A /* GetRichQuick!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF8DB1961A855AF80027689A /* Build configuration list for PBXNativeTarget "GetRichQuick!Tests" */;
+			buildPhases = (
+				BF8DB1851A855AF80027689A /* Sources */,
+				BF8DB1861A855AF80027689A /* Frameworks */,
+				BF8DB1871A855AF80027689A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8DB18B1A855AF80027689A /* PBXTargetDependency */,
+			);
+			name = "GetRichQuick!Tests";
+			productName = "GetRichQuick!Tests";
+			productReference = BF8DB1891A855AF80027689A /* GetRichQuick!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF8DB1681A855AF80027689A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Louis Agars-Smith";
+				TargetAttributes = {
+					BF8DB16F1A855AF80027689A = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 899P2F5BF5;
+					};
+					BF8DB1881A855AF80027689A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BF8DB16F1A855AF80027689A;
+					};
+				};
+			};
+			buildConfigurationList = BF8DB16B1A855AF80027689A /* Build configuration list for PBXProject "GetRichQuick!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF8DB1671A855AF80027689A;
+			productRefGroup = BF8DB1711A855AF80027689A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF8DB16F1A855AF80027689A /* GetRichQuick! */,
+				BF8DB1881A855AF80027689A /* GetRichQuick!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF8DB16E1A855AF80027689A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF224FF21A86D4020059A7D5 /* cross.png in Resources */,
+				BF8DB17F1A855AF80027689A /* Main.storyboard in Resources */,
+				BF6F22491A8636FB00349ACD /* coin2.wav in Resources */,
+				BF6F22481A8636FB00349ACD /* coin.wav in Resources */,
+				BF779A361A8D51D700EA0EAD /* kaching.wav in Resources */,
+				BFC7450E1A968D0D00870705 /* coinpic180.png in Resources */,
+				BF6F224A1A8636FB00349ACD /* coin3.wav in Resources */,
+				BF8DB1811A855AF80027689A /* Images.xcassets in Resources */,
+				BFFFD2C81A90F2600028A2B7 /* coinpic.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8DB1871A855AF80027689A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF8DB16C1A855AF80027689A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF661D111A93B78500A05BE3 /* G2ShopViewController.m in Sources */,
+				BF8DB17C1A855AF80027689A /* ViewController.m in Sources */,
+				BF8DB1791A855AF80027689A /* AppDelegate.m in Sources */,
+				BF8DB1761A855AF80027689A /* main.m in Sources */,
+				BF779A3B1A8E8C1100EA0EAD /* GShopViewController.m in Sources */,
+				BF767CBC1A893DEA00D3AA26 /* 2ShopViewController.m in Sources */,
+				BF224FF81A86DF430059A7D5 /* ShopViewController.m in Sources */,
+				BFBA385C1A8FEB72003303C0 /* StatsViewController.m in Sources */,
+				BF224FF51A86D56F0059A7D5 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8DB1851A855AF80027689A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8DB1901A855AF80027689A /* GetRichQuick_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF8DB18B1A855AF80027689A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF8DB16F1A855AF80027689A /* GetRichQuick! */;
+			targetProxy = BF8DB18A1A855AF80027689A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF8DB17D1A855AF80027689A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF8DB17E1A855AF80027689A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF8DB1911A855AF80027689A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF8DB1921A855AF80027689A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF8DB1941A855AF80027689A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "GetRichQuick!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BF8DB1951A855AF80027689A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "GetRichQuick!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BF8DB1971A855AF80027689A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GetRichQuick!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetRichQuick!.app/GetRichQuick!";
+			};
+			name = Debug;
+		};
+		BF8DB1981A855AF80027689A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GetRichQuick!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetRichQuick!.app/GetRichQuick!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF8DB16B1A855AF80027689A /* Build configuration list for PBXProject "GetRichQuick!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8DB1911A855AF80027689A /* Debug */,
+				BF8DB1921A855AF80027689A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8DB1931A855AF80027689A /* Build configuration list for PBXNativeTarget "GetRichQuick!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8DB1941A855AF80027689A /* Debug */,
+				BF8DB1951A855AF80027689A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF8DB1961A855AF80027689A /* Build configuration list for PBXNativeTarget "GetRichQuick!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8DB1971A855AF80027689A /* Debug */,
+				BF8DB1981A855AF80027689A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF8DB1681A855AF80027689A /* Project object */;
+}
